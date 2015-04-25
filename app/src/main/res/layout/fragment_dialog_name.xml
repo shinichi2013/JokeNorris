@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_dialog_default"
+    android:orientation="vertical">
+
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/et_first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_dialog_default"
+        android:layout_marginLeft="@dimen/padding_dialog_default"
+        android:layout_marginRight="@dimen/padding_dialog_default"
+        android:textSize="@dimen/text_size_default"
+        android:inputType="textPersonName"
+        android:hint="@string/label_first_name"
+        app:met_helperText="@string/label_helper_text"
+        app:met_floatingLabelText="@string/label_float_text_alt_first"
+        app:met_floatingLabel="highlight"
+        app:met_singleLineEllipsis="true"
+        app:met_clearButton="true"
+        app:met_floatingLabelTextColor="@color/accentColor"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/et_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/padding_dialog_default"
+        android:layout_marginRight="@dimen/padding_dialog_default"
+        android:textSize="@dimen/text_size_default"
+        android:inputType="textPersonName"
+        android:hint="@string/label_last_name"
+        app:met_helperText="@string/label_helper_text"
+        app:met_floatingLabelText="@string/label_float_text_alt_last"
+        android:layout_margin="@dimen/padding_dialog_default"
+        app:met_floatingLabel="highlight"
+        app:met_singleLineEllipsis="true"
+        app:met_clearButton="true"
+        app:met_floatingLabelTextColor="@color/accentColor"/>
+
+    <com.gc.materialdesign.views.ButtonFlat
+        android:id="@+id/button_go"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_gravity="right"
+        android:background="@color/accentColor"
+        android:text="@string/label_go"/>
+
+</LinearLayout>

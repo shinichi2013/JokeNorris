@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.abing.jokenorris.fragment.MainFragment">
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/button_joke_random"
+        android:layout_width="@dimen/width_button"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/primaryColor"
+        android:text="@string/label_random_joke"
+        android:layout_above="@+id/button_joke_name"
+        android:layout_alignLeft="@+id/button_joke_name"
+        android:layout_alignStart="@+id/button_joke_name" />
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/button_joke_name"
+        android:layout_width="@dimen/width_button"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/primaryColor"
+        android:text="@string/label_name_joke"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/button_joke_category"
+        android:layout_alignStart="@+id/button_joke_category" />
+
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/button_joke_category"
+        android:layout_width="@dimen/width_button"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/primaryColor"
+        android:text="@string/label_category_joke"
+        android:layout_below="@+id/button_joke_name"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
