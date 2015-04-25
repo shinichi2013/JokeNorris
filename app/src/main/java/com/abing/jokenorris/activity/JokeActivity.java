@@ -21,7 +21,7 @@ public class JokeActivity extends ActionBarActivity {
         setContentView(R.layout.activity_joke);
 
         initViews();
-        putJokeFragment();
+        addJokeFragment();
     }
 
     private void initViews() {
@@ -34,13 +34,12 @@ public class JokeActivity extends ActionBarActivity {
         getSupportActionBar().setIcon(R.mipmap.ic_launcher);
     }
 
-    private void putJokeFragment(){
+    private void addJokeFragment(){
         JokeFragment newFragment = JokeFragment.newInstance(getIntent().getStringExtra(MainActivity.KEY_JOKE));
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
 
         transaction.replace(R.id.fragment_container, newFragment);
         transaction.addToBackStack(null);
-
         transaction.commit();
     }
 
