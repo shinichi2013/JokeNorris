@@ -3,9 +3,6 @@ package com.abing.jokenorris.helper;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-/**
- * Created by Catingub on 4/26/2015.
- */
 public class SharedPrefsHelper {
 
     private static final String NAME_PREF_FILE_NAME = "NAME_PREF_FILE_NAME";

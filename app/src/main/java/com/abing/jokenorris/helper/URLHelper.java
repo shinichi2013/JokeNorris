@@ -2,11 +2,7 @@ package com.abing.jokenorris.helper;
 
 import android.net.Uri;
 
-/**
- * Created by Catingub on 4/24/2015.
- */
 public class URLHelper {
-    private static final String URL_RANDOM_JOKE = "http://api.icndb.com/jokes/random/";
 
     private static final String SCHECME = "http";
     private static final String AUTHORITY = "api.icndb.com";

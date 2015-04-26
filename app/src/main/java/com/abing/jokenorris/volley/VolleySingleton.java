@@ -4,9 +4,6 @@ import com.abing.jokenorris.application.JokeNorrisApplication;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
 
-/**
- * Created by Catingub on 4/23/2015.
- */
 public class VolleySingleton {
 
     public static VolleySingleton sInstance = null;

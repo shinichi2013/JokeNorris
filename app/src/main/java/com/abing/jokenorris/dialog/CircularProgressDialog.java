@@ -10,9 +10,6 @@ import android.view.ViewGroup;
 import com.abing.jokenorris.R;
 import com.lsjwzh.widget.materialloadingprogressbar.CircleProgressBar;
 
-/**
- * Created by Catingub on 4/25/2015.
- */
 public class CircularProgressDialog extends DialogFragment {
 
     private CircleProgressBar mProgressBar;

@@ -18,9 +18,6 @@ import com.abing.jokenorris.helper.StringHelper;
 import com.gc.materialdesign.views.ButtonFlat;
 import com.rengwuxian.materialedittext.MaterialEditText;
 
-/**
- * Created by Catingub on 4/25/2015.
- */
 public class NameInputDialog extends DialogFragment implements View.OnClickListener{
 
     private static final String KEY_FIRST_NAME = "KEY_FIRST_NAME";

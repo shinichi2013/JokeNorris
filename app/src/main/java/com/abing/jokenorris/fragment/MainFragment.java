@@ -10,7 +10,6 @@ import android.view.ViewGroup;
 import com.abing.jokenorris.R;
 import com.gc.materialdesign.views.ButtonRectangle;
 
-
 public class MainFragment extends Fragment implements View.OnClickListener{
 
     private OnButtonClickedListener mListener;

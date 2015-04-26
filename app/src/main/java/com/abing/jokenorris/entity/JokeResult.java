@@ -1,8 +1,5 @@
 package com.abing.jokenorris.entity;
 
-/**
- * Created by Catingub on 4/24/2015.
- */
 public class JokeResult {
 
     public JokeResult(){
